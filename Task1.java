@@ -1,3 +1,4 @@
+
 import java.io.*;
 
 class Task1 {
@@ -8,7 +9,7 @@ class Task1 {
         System.out.print("Enter the end number: ");
         int end = input.nextInt();
         if (start > end) {
-            System.out.println("Error! You inputed a start number that is larger than the end number!");
+            System.out.println("Something is wrong! Maybe you inputed a start number that is larger than the end number!");
         }
         else {
             int sum = 0;
