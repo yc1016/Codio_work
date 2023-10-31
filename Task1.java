@@ -1,5 +1,5 @@
-
 import java.io.*;
+import java.util.Scanner;
 
 class Task1 {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ class Task1 {
         System.out.print("Enter the end number: ");
         int end = input.nextInt();
         if (start > end) {
-            System.out.println("Something is wrong! Maybe you inputed a start number that is larger than the end number!");
+            System.out.println("Error! Maybe you inputed a start number that is larger than the end number!");
         }
         else {
             int sum = 0;
